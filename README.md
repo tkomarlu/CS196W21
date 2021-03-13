@@ -15,5 +15,7 @@ python3 subtitleExtract.py a_subtitled_video_clip.mp4
 ```
 It then creates a folder of captured frames named with the according time range as well as the trimmed audio. 
 
+## How it works
+
 ## Performance
 The silence removal from the provided media clip is extremely CPU intensive.  
