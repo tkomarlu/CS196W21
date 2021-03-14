@@ -33,7 +33,7 @@ Then for every frame:
 * We then save the current timestamp as the starting timestamp of the subtitle and evaluate the next frame
 * In order to avoid extracting the same subtitle, we calculate the average squared error between two consecutive frames. If the error is above 1, then we save the frame with the starting and ending timestamps of the subtitle.
 
-When the input video ends, we save all images to a directory and exit
+When the input video ends, we save all images to a local directory and exit
 
 ## Performance
 The silence removal from the provided media clip is extremely CPU intensive.  
