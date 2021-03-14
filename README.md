@@ -36,4 +36,4 @@ Then for every frame:
 When the input video ends, we save all images to a local directory and exit
 
 ## Performance
-The silence removal from the provided media clip is extremely CPU intensive. As a result, it can take a few minutes in order to process lengthy video clips.
+The silence removal from the provided media clip is extremely CPU intensive. As a result, it can take a few minutes in order to process lengthy media clips.
