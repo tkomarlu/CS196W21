@@ -32,7 +32,8 @@ Then for every frame:
 * We then binarize the image using image thresholding. For every pixel, the same threshold value of 220 is applied. If the pixel value is smaller than the threshold, it is set to 0, otherwise it is set to a maximum value. This allows us to transform the subtitle into a black and white image.
 * We then save the current timestamp as the starting timestamp of the subtitle and evaluate the next frame
 * In order to avoid extracting the same subtitle, we calculate the average squared error between two consecutive frames. If the error is above 1, then we save the frame with the starting and ending timestamps of the subtitle.
-* When the input video ends, we save all images to a directory and exit
+
+When the input video ends, we save all images to a directory and exit
 
 ## Performance
 The silence removal from the provided media clip is extremely CPU intensive.  
