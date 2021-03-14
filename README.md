@@ -17,5 +17,12 @@ It then creates a folder of captured frames named with the according time range 
 
 ## How it works
 
+This program relies on some patterns in how subtitles are rendered and displayed on videos.
+
+* Subtitles typically have black borders and a defined text color (usually white)
+* Subtitles are usually located at the bottom of the screeen and do not move
+
+The algorithm then does the following:
+
 ## Performance
 The silence removal from the provided media clip is extremely CPU intensive.  
