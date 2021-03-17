@@ -16,8 +16,7 @@ python3 subtitleExtract.py a_subtitled_video_clip.mp4
 It then creates a folder of captured frames named with the according time range as well as the trimmed audio. 
 
 ## Motivation
-
-Developing corpuses for speech recognition requires a large amount of manual labour to trancribe and map audio files to given words. However, there are a large amount of raw data existing in the form of subtitled videos that is currently unusable in speech recognition tasks. Automating the generation of these datasets using pre-existing subtitled videos encourages the further development of speech recognition models especially when it is hard to find a large corpus of audio for a rare language. Being able to make use of subtitled movies and videos can help develop larger datasets for future speech recognition tasks.
+Developing corpuses for speech recognition requires a large amount of manual labor to transcribe and map audio files to given words. However, there are a large amount of raw data existing in the form of subtitled videos that is currently unusable in speech recognition tasks. Automating the generation of these datasets using pre-existing subtitled videos encourages the further development of speech recognition models especially when it is hard to find a large corpus of audio for a rare language. Being able to make use of subtitled movies and videos can help develop larger datasets for future speech recognition tasks.
 
 ## How it works
 
